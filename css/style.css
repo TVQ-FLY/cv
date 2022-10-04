@@ -1677,12 +1677,11 @@ a:focus {
 .form1{
     position: absolute;
     z-index: 10;
-    inset: 7px;
-    background: url(/img/box1.png);
+    inset: 0px;
     background-repeat: no-repeat;
-    background-size: 420px;
+    background-size: 500px;
     border-radius: 8px;
-    padding: 50px 40px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
 }
@@ -1690,24 +1689,24 @@ a:focus {
 .form2{
     position: absolute;
     z-index: 10;
-    inset: 7px;
-    background: url(/img/box2.png);
+    inset: 0px;
+    background: box2.png;
     background-repeat: no-repeat;
-    background-size: 420px;
+    background-size: 500px;
     border-radius: 8px;
-    padding: 50px 40px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
 }
 .form3{
     position: absolute;
     z-index: 10;
-    inset: 7px;
+    inset: 0px;
     background: url(/img/box3.png);
     background-repeat: no-repeat;
-    background-size: 420px;
+    background-size: 500px;
     border-radius: 8px;
-    padding: 50px 40px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
 }
