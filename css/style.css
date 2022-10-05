@@ -1627,13 +1627,12 @@ a:hover{
 .box-image{
     display: flex;
     padding: 40px 40px;
-
     
 }
 .box{
     position: relative;
-    width: 500px;
-    height: 330px;
+    width: 400px;
+    height: 300px;
     background: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
@@ -1644,8 +1643,8 @@ a:hover{
 .box::before{
     content: '';
     position: absolute;
-    width: 500px;
-    height: 330px;
+    width: 400px;
+    height: 300px;
     top: -50%;
     left: -50%;
     transform-origin: bottom right;
@@ -1656,8 +1655,8 @@ a:hover{
 .box::after{
     content: '';
     position: absolute;
-    width: 500px;
-    height: 330px;
+    width: 400px;
+    height: 300px;
     top: -50%;
     left: -50%;
     transform-origin: bottom right;
@@ -1678,42 +1677,37 @@ a:hover{
     }
 }
 
-.form1{
+.form{
     position: absolute;
     z-index: 1;
-    inset: 0px;
-    background-repeat: no-repeat;
-    background-size: 600px;
-    border-radius: 8px;
-    padding: 5px 5px;
+    inset: 5px;
+    background: yellow;
     display: flex;
     flex-direction: column;
+    
 }
 
-.form2{
+.form h2{
+    font-size: 25px;
+    margin: auto;
+}
+/* 
+.form{
     position: absolute;
     z-index: 1;
-    inset: 0px;
-    background: box2.png;
-    background-repeat: no-repeat;
-    background-size: 500px;
-    border-radius: 8px;
-    padding: 5px 5px;
+    inset: 5px;
+    background: yellow;
     display: flex;
     flex-direction: column;
 }
-.form3{
+.form{
     position: absolute;
     z-index: 1;
-    inset: 0px;
-    background: url(/img/box3.png);
-    background-repeat: no-repeat;
-    background-size: 500px;
-    border-radius: 8px;
-    padding: 5px 5px;
+    inset: 5px;
+    background: yellow;
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 
@@ -1744,10 +1738,11 @@ a:hover{
 	margin-bottom: 20px;
 	font-size: 24px;
 	font-weight: 500;
+    color: yellow;
 }
 .sub-box p{
 	font-size: var(--p-font);
-	color: var(--secound-color);
+	color: black;
 	line-height: 29px;
 }
 .sub-box:hover{
@@ -1756,4 +1751,38 @@ a:hover{
 	border-radius: 12px;
 	will-change: transform;
 	transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
+}
+
+/* Language */
+.container-language{
+    background-color: #ff6100;
+}
+
+.my-album{
+    display: flex;
+    
+}
+.zoomIn h2{
+    padding-top: 30px;
+}
+
+
+.fa-js{
+    font-size: 200px;
+    color: yellow;
+    margin-left: 300px;
+}
+
+.fa-java{
+    font-size: 200px;
+    color: white;
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+
+.fa-python{
+    font-size: 200px;
+    color: #000080;
+    margin-left: 200px;
+    padding-bottom: 30px;
 }
