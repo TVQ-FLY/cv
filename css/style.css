@@ -21,12 +21,16 @@ a {
     transition: .3s;
 }
 
-a:hover,
+
 a:active,
 a:focus {
     color: #ff6100;
     outline: none;
     text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: yellow;
 }
 
 .btn:focus,
@@ -1532,7 +1536,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #414141;
+    color: red;
 }
 
 .footer .copyright {
@@ -1679,9 +1683,9 @@ a:focus {
     z-index: 1;
     inset: 0px;
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 600px;
     border-radius: 8px;
-    padding: 10px 10px;
+    padding: 5px 5px;
     display: flex;
     flex-direction: column;
 }
@@ -1694,7 +1698,7 @@ a:focus {
     background-repeat: no-repeat;
     background-size: 500px;
     border-radius: 8px;
-    padding: 10px 10px;
+    padding: 5px 5px;
     display: flex;
     flex-direction: column;
 }
@@ -1706,7 +1710,7 @@ a:focus {
     background-repeat: no-repeat;
     background-size: 500px;
     border-radius: 8px;
-    padding: 10px 10px;
+    padding: 5px 5px;
     display: flex;
     flex-direction: column;
 }
