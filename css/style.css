@@ -363,11 +363,45 @@ a:hover{
 }
 
 @media (max-width: 767.98px) {
-    .hero {
-        padding-top: 60px;
-        padding-bottom: 60px;
+    .album-one{
+        margin: 0;
     }
     
+    
+    .hero {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    .container-fluid .navbar-brand{
+        font-size: 25px;
+    }
+
+    .about-content .text-left{
+        margin-top: 20px;
+    }
+
+    .col-lg-6{
+        margin-top: 20px;
+    }
+
+    .zoomIn{
+        display: flex;
+    }
+
+    .box-image{
+        display: inline;
+    }
+
+    .hi{
+        margin: 0;
+        padding: 0;
+    }
+
+
     .hero,
     .hero .hero-text,
     .hero .hero-btn {
